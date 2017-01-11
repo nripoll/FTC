@@ -1,0 +1,63 @@
+\documentclass[11pt]{beamer}
+\usetheme{default}
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\author{Nicolás Ripoll} %\\ Estudiante de Dr. en Ing. Mecánica}
+\title{IMP462 \\ Fundamentos de la combustión turbulenta}
+
+\subtitle{Parte 1: Derivación de ecuaciones de conservación}
+
+%logo{}
+
+\institute{Departamento de Ingeniería Mecánica \\Universidad Técnica Federico Santa María}
+
+\date{\\ martes 10 de enero, 2016}
+
+\subject{Fundamentos de la combustion turbulenta}
+
+\setbeamercovered{transparent}
+
+\setbeamertemplate{navigation symbols}{}
+
+\begin{document}
+	\maketitle
+	
+%	Diapositiva 1
+	\begin{frame}
+		\frametitle{¿Qué es la combustión?}
+	\end{frame}
+
+%	Diapositiva 2
+	\begin{frame}
+		\frametitle{Análisis del Volumen de Control}
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{Formas Generales}
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{Conservación de Momento}
+	
+	
+		\begin{equation} % Separación entre tensor de esfuerzos viscosos y presión
+			\dfrac{\partial}{\partial t} \left(\rho u_{j}\right) + \dfrac{\partial}{\partial x_{i}} \left(\rho u_{i} u_{j}\right) = -\dfrac{\partial p}{\partial x_{j}} + \dfrac{\partial \tau_{i j}}{\partial x_{i}} + \rho \sum_{k=1}^{N} Y_{k} f_{k,j}
+		\end{equation}
+
+		Hola
+
+		\begin{equation} % tensor de esfuerzos total
+			\dfrac{\partial}{\partial t} \left(\rho u_{j}\right) + \dfrac{\partial}{\partial x_{i}} \left(\rho u_{i} u_{j}\right) = \dfrac{\partial \sigma_{i j}}{\partial x_{i}} + \rho \sum_{k=1}^{N} Y_{k} f_{k,j}
+		\end{equation}
+		
+	\end{frame}
+	
+\bibliographystyle{plain}
+\bibliography{biblio.bib}
+\end{document}
