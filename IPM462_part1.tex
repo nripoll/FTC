@@ -45,14 +45,14 @@
 	\begin{frame}
 		\frametitle{Conservación de Momento}
 	
-	
+		Formulación de la ecuación de momento 
 		\begin{equation} % Separación entre tensor de esfuerzos viscosos y presión
 			\dfrac{\partial}{\partial t} \left(\rho u_{j}\right) + \dfrac{\partial}{\partial x_{i}} \left(\rho u_{i} u_{j}\right) = -\dfrac{\partial p}{\partial x_{j}} + \dfrac{\partial \tau_{i j}}{\partial x_{i}} + \rho \sum_{k=1}^{N} Y_{k} f_{k,j}
 			\label{eq:cons.momento1}
 		\end{equation}
-
+		\\
 		Agrupando el lado derecho de \eqref{eq:cons.momento1} para el tensor de esfuerzos $\sigma_{i j}$ , resulta:
-
+		\\
 		\begin{equation} % tensor de esfuerzos total
 			\dfrac{\partial}{\partial t} \left(\rho u_{j}\right) + \dfrac{\partial}{\partial x_{i}} \left(\rho u_{i} u_{j}\right) = \dfrac{\partial \sigma_{i j}}{\partial x_{i}} + \rho \sum_{k=1}^{N} Y_{k} f_{k,j}
 			\label{eq:cons.momento2}
